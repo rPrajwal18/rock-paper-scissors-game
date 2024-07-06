@@ -1,0 +1,61 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsla(0, 0%, 80%, 0.673);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.choices{
+    margin-bottom: 25px;
+}
+
+.choices button{
+    font-size: 6.5rem;
+    border: none;
+    border-radius: 200px;
+    background-color: darkslategray;
+    margin: 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.choices button:hover{
+    background-color: hsl(180, 25%, 40%);
+}
+
+.choices button:active{
+    background-color: hsl(180, 25%, 60%);
+}
+
+#playerResult, #computerResult{
+    font-size: 2rem;
+    margin: 5px 5px;
+}
+
+#endResult{
+    font-size: 4rem;
+    margin: 5px 0px;
+}
+
+.playerScore{
+    font-size: 2rem;
+    margin: 5px 5px;
+}
+
+.greenText, #playerScoreDisplay{
+    color: rgba(11, 182, 11, 0.999);
+}
+
+.redText, #computerScoreDisplay{
+    color: hsl(9, 79%, 57%);
+}
